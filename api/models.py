@@ -6,3 +6,6 @@ class Note(models.Model):
     title = models.CharField(max_length=50)
     text = models.TextField()
 
+class Test(models.Model):
+    title = models.CharField(max_length=50)
+    text = models.TextField()
